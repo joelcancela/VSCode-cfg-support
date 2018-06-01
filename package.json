@@ -1,0 +1,26 @@
+{
+    "name": "cfg-games-support",
+    "displayName": "CFG Games Support",
+    "description": "Syntax lightning for .cfg files (Valve games and other games)",
+    "version": "0.0.1",
+    "publisher": "jcancela",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cfg",
+            "aliases": ["Configuration file", "cfg"],
+            "extensions": [".cfg"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cfg",
+            "scopeName": "text.source.cfg",
+            "path": "./syntaxes/cfg.tmLanguage.json"
+        }]
+    }
+}

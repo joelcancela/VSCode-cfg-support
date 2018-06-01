@@ -1,0 +1,41 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Configuration file",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.cfg",
+				"match": "(.+_)"
+			},{
+				"name": "variable.name.cfg",
+				"match": "_(.+_)"
+			},{
+				"name":"comment",
+				"match": "//(.+)\b"
+			},{
+				"name":"variable.parameter",
+				"match":"\b(uset)\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.cfg",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.cfg",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "text.source.cfg"
+}
