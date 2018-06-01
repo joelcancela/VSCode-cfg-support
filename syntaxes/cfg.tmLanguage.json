@@ -17,15 +17,15 @@
 			"patterns": [
 				{
 					"name": "keyword.control.cfg",
-					"match": "(uset|bind|exec|^[a-z]$)"
+					"match": "(uset|bind|exec|^[a-z]+$)"
 				},
 				{
 					"name": "support.function",
-					"match": "(\\s[a-z]+_)|(^[a-z]+_)|(^[a-z]+)"
+					"match": "(\\s[a-z]+_)|(^[a-z]+_)|(^[a-z]+)|([a-z]+.cfg)"
 				},
 				{
-					"name": "support.class",
-					"match": "[a-z+_](.+) "
+					"name": "constant.numeric",
+					"match":"\\s([0-9]+)"
 				}
 			]
 		},
