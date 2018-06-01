@@ -2,7 +2,7 @@
     "name": "cfg-games-support",
     "displayName": "CFG Games Support",
     "description": "Syntax highlighting for .cfg files (Valve games and other games)",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "author": {
         "name": "Joël Cancela Vaz & Nassim Bounouas",
         "email": "joel.cancelavaz@gmail.com"
@@ -19,16 +19,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "cfg",
-            "aliases": ["Configuration file", "cfg"],
-            "extensions": [".cfg"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "cfg",
-            "scopeName": "text.source.cfg",
-            "path": "./syntaxes/cfg.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "cfg",
+                "aliases": [
+                    "Configuration file",
+                    "cfg"
+                ],
+                "extensions": [
+                    ".cfg"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "cfg",
+                "scopeName": "text.source.cfg",
+                "path": "./syntaxes/cfg.tmLanguage.json"
+            }
+        ]
     }
 }
