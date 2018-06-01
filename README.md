@@ -1,6 +1,6 @@
 # CFG Games Support
 
-Adds syntax lightning for .cfg files for Valve games and others.
+Adds syntax highlighting for .cfg files for Valve games and others.
 
 ## Games Supported
 
