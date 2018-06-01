@@ -24,8 +24,12 @@
 					"match": "(\\s[a-z]+_)|(^[a-z]+_)|(^[a-z]+)|([a-z]+.cfg)"
 				},
 				{
+					"name": "support.class",
+					"match": "[a-z0-9+_]"
+				},
+				{
 					"name": "constant.numeric",
-					"match":"\\s([0-9]+)"
+					"match": "\\s([0-9])+"
 				}
 			]
 		},
@@ -40,14 +44,14 @@
 				}
 			]
 		},
-		"comments":{
+		"comments": {
 			"patterns": [
 				{
 					"name": "comment.line.double-slash",
-					"match": "//(...+)$"
+					"match": "//(.+)"
 				},
 				{
-					"name":"comment.line.number-sign",
+					"name": "comment.line.number-sign",
 					"match": "#(...+)$"
 				}
 			]
