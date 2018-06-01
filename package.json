@@ -8,6 +8,10 @@
         "email": "joel.cancelavaz@gmail.com"
     },
     "publisher": "joelcancela",
+    "repository": {
+        "url": "https://github.com/joelcancela/VSCode-cfg-support.git",
+        "type": "git"
+    },
     "engines": {
         "vscode": "^1.23.0"
     },
