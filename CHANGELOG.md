@@ -1,7 +1,5 @@
 # Change Log
-All notable changes to the "cfg-games-support" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-- Initial release
+## [1.0.0] - 2018-06-01
+### Added
+- Syntax lightning for Valve games .cfg and ETS2 .cfg files

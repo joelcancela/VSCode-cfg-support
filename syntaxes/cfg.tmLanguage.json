@@ -48,11 +48,11 @@
 			"patterns": [
 				{
 					"name": "comment.line.double-slash",
-					"match": "//(.+)"
+					"match": "//(.*)$"
 				},
 				{
 					"name": "comment.line.number-sign",
-					"match": "#(...+)$"
+					"match": "#(.*)$"
 				}
 			]
 		}

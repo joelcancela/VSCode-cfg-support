@@ -3,7 +3,11 @@
     "displayName": "CFG Games Support",
     "description": "Syntax lightning for .cfg files (Valve games and other games)",
     "version": "0.0.1",
-    "publisher": "jcancela",
+    "author": {
+        "name": "Joël Cancela Vaz & Nassim Bounouas",
+        "email": "joel.cancelavaz@gmail.com"
+    },
+    "publisher": "joelcancela",
     "engines": {
         "vscode": "^1.23.0"
     },
