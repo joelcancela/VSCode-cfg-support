@@ -7,23 +7,27 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#comments"
 		}
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.cfg",
-				"match": "(.+_)"
-			},{
-				"name": "variable.name.cfg",
-				"match": "_(.+_)"
-			},{
-				"name":"comment",
-				"match": "//(.+)\b"
-			},{
-				"name":"variable.parameter",
-				"match":"\b(uset)\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.cfg",
+					"match": "(uset|bind|exec|^[a-z]$)"
+				},
+				{
+					"name": "support.function",
+					"match": "(\\s[a-z]+_)|(^[a-z]+_)|(^[a-z]+)"
+				},
+				{
+					"name": "support.class",
+					"match": "[a-z+_](.+) "
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.cfg",
@@ -31,8 +35,20 @@
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.cfg",
+					"name": "variable",
 					"match": "\\\\."
+				}
+			]
+		},
+		"comments":{
+			"patterns": [
+				{
+					"name": "comment.line.double-slash",
+					"match": "//(...+)$"
+				},
+				{
+					"name":"comment.line.number-sign",
+					"match": "#(...+)$"
 				}
 			]
 		}
