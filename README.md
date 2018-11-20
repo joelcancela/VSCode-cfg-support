@@ -1,6 +1,6 @@
 # CFG Games Support
 
-Adds syntax highlighting for .cfg files for Valve games and others.
+VSCode extension that adds syntax highlighting for .cfg files for Valve games and others.
 
 ## Games Supported
 
