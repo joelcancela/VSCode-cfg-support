@@ -9,7 +9,7 @@ VSCode extension that adds syntax highlighting for .cfg files for Valve games an
 
 ## Authors
 
-- Nassim Bounouas - [Github](https://github.com/NassimBounouas)
-- Joël Cancela Vaz - [Github](https://github.com/joelcancela)
+- Nassim Bounouas - [GitHub](https://github.com/NassimBounouas)
+- Joël Cancela Vaz - [GitHub](https://github.com/joelcancela)
 
 **Enjoy!**

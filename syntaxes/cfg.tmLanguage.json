@@ -17,7 +17,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.cfg",
-					"match": "(uset|bind|exec|^[a-z]+$)"
+					"match": "^[a-z]+\\s"
 				},
 				{
 					"name": "support.function",
@@ -25,7 +25,7 @@
 				},
 				{
 					"name": "support.class",
-					"match": "[a-z0-9+_]"
+					"match": "[a-zA-Z0-9+\\-_]"
 				},
 				{
 					"name": "constant.numeric",
