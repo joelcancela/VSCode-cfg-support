@@ -22,3 +22,13 @@
 ### Improvements
 
 - Made important keywords matching more general.
+
+## [0.1.3] - 2022-04-26
+
+### Fixed
+
+- Issue with backslash escaping quote #3
+
+### Improvements
+
+- Better support for float numbers and config file names with underscore
