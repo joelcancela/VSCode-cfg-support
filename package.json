@@ -2,7 +2,7 @@
     "name": "cfg-games-support",
     "displayName": "CFG Games Support",
     "description": "Syntax highlighting for .cfg files (Valve games and other games)",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "author": {
         "name": "Joël Cancela Vaz & Nassim Bounouas",
         "email": "joel.cancelavaz@gmail.com"
