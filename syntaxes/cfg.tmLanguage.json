@@ -39,8 +39,8 @@
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "variable",
-					"match": "\\."
+					"name": "constant.numeric",
+					"match": "(([0-9])+\\.)?([0-9])+"
 				}
 			]
 		},
