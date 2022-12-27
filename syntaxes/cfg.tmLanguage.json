@@ -24,7 +24,7 @@
 					"match": "(\\s[a-z]+_)|(^[a-z]+_)|(^[a-z]+)|([a-z_]+.cfg)"
 				},
 				{
-					"name": "support.class",
+					"name": "entity.name.class",
 					"match": "[a-zA-Z0-9+\\-_]"
 				},
 				{
