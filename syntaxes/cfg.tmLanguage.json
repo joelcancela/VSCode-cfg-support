@@ -1,0 +1,61 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Configuration file",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.cfg",
+					"match": "^[a-z]+\\s"
+				},
+				{
+					"name": "support.function",
+					"match": "(\\s[a-z]+_)|(^[a-z]+_)|(^[a-z]+)|([a-z_]+.cfg)"
+				},
+				{
+					"name": "entity.name.class",
+					"match": "[a-zA-Z0-9+\\-_]"
+				},
+				{
+					"name": "constant.numeric",
+					"match": "\\s([0-9]+([.][0-9]*)?|[.][0-9]+)"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.cfg",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.numeric",
+					"match": "\\b([0-9]+([.][0-9]*)?|[.][0-9]+)"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.double-slash",
+					"match": "//(.*)$"
+				},
+				{
+					"name": "comment.line.number-sign",
+					"match": "#(.*)$"
+				}
+			]
+		}
+	},
+	"scopeName": "text.source.cfg"
+}
